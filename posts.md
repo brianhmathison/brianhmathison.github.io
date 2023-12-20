@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: POSTS
 ---
 {% for post in site.posts %}
