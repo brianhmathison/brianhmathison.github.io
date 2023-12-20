@@ -159,11 +159,9 @@ If you have any questions about this Privacy Policy, You can contact us by email
 
 [source](https://www.termsfeed.com/privacy-policy-generator/?sscid=11k7_4d9my)
 
+---
 
-
-
-
-# Brian H Mathison PhD
+## Brian H Mathison PhD
 
 Curriculum Vitae
 
