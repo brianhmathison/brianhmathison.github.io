@@ -1,5 +1,7 @@
 ---
-layout: post
+layout: about
+title: ABOUT
+
 ---
 
 # Privacy Policy

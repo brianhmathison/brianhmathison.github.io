@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: about
+title: POSTS
 ---
-
-# POSTS
 {% for post in site.posts %}
-  <p><a href="{{ post.url }}">{{ post.title }}</a>
+  <p><a href="{{ post.url }}">{{ post.title }}</a>&nbsp;{{ post.date | date: "%a-%d-%b-%Y" }}</p>
 {% endfor %}
