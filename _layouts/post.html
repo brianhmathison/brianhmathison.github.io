@@ -27,21 +27,9 @@
                     <div class="col-lg-6">  
                         <h1>{{ page.title }}</h1>
                             <i>{{ page.author }}&nbsp;|&nbsp;{{ page.date | date: "%a-%d-%b-%Y" }}</i>
-                        <hr>
                         {{ content }}
                         <hr>
                         <div class="sharethis-inline-share-buttons" data-title="{{ page.title }}"></div>
-                        <hr>
-                        <h2>Addition Posts by Year</h2>
-                        {% for post in site.posts %}
-                        {% assign currentdate = post.date | date: "%Y" %}
-                        {% if currentdate != date %}
-                        <br>
-                        <p id="y{{currentdate}}">{{ currentdate }}</p>
-                        {% assign date = currentdate %}
-                        {% endif %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-                        {% endfor %}
                     </div>
                 
                 </div>
