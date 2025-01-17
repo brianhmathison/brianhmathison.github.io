@@ -12,7 +12,7 @@
     overflow: hidden; /* Hide potential iframe overflow */
     max-width: 100%; /* Prevent iframe from exceeding viewport width */
     width: 80%; /* Example width, adjust as needed */
-    height: 60%; /* Example height, adjust as needed */
+    height: 80%; /* Example height, adjust as needed */
     /* If you want to maintain aspect ratio use padding-bottom trick */
     /* padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width * 100) */
   }
